@@ -2,6 +2,13 @@ package hackerRank_Ex3;
 
 import java.util.Scanner;
 
+/*
+ * Para utilizaÃ§Ã£o correta do buffer, quando existe a necessidade de realizar
+ * uma entrada consecutiva de dados numÃ©ricos e cadeias de caracteres, deve-se
+ * esvaziar o buffer depois da leitura do valor numÃ©rico e antes da leitura de
+ * um valor do tipo String
+ */
+
 public class EntradaSaidaScanner2 {
 
 	public static void main(String[] args) {
@@ -20,9 +27,3 @@ public class EntradaSaidaScanner2 {
 	}
 
 }
-/*
- * Para utilização correta do buffer, quando existe a necessidade de realizar
- * uma entrada consecutiva de dados numéricos e cadeias de caracteres, deve-se
- * esvaziar o buffer depois da leitura do valor numérico e antes da leitura de
- * um valor do tipo String
- */
